@@ -7,12 +7,9 @@ pap = ["б", "Бумага"]
 ex = ["в", "Вихід"]
 elements = [sci, sto, pap]
 choices = [i[0] for i in elements]
-wins = 0
-losses = 0
-ties = 0
+wins, losses, ties = [0, 0, 0]
 winPairs = [[sto[0], sci[0]], [pap[0], sto[0]], [sci[0], pap[0]]]
-userName = "Користувач"
-compName = "Комп'ютер"
+userName, compName = ["Користувач", "Комп'ютер"]
 
 
 def printCurElement(player, choice):
